@@ -13,11 +13,17 @@ $(document).ready(function(e) {
 		
 		audio.preloadFX('doS', 'audio/DO#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
 		audio.preloadFX('reS', 'audio/RE#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
-		audio.preloadFX('mi', 'audio/MI#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
 		audio.preloadFX('faS', 'audio/FA#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
 		audio.preloadFX('solS', 'audio/SOL#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
 		audio.preloadFX('laS', 'audio/LA#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
-		audio.preloadFX('si', 'audio/SI#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		
+		audio.preloadFX('doSos', 'audio/DO#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('reSos', 'audio/RE#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('faSos', 'audio/FA#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('solSos', 'audio/SOL#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('laSos', 'audio/LA#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		
+		
 		$('.nota').bind('touchstart', function(){
 			$(this).addClass('tocada');
 			audio.play($(this).attr('id'));
