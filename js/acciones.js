@@ -17,11 +17,11 @@ $(document).ready(function(e) {
 		audio.preloadFX('solS', 'audio/SOL#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
 		audio.preloadFX('laS', 'audio/LA#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
 		
-		audio.preloadFX('doSos', 'audio/DO#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
-		audio.preloadFX('reSos', 'audio/RE#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
-		audio.preloadFX('faSos', 'audio/FA#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
-		audio.preloadFX('solSos', 'audio/SOL#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
-		audio.preloadFX('laSos', 'audio/LA#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('doSos', 'audio/DOSos#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('reSos', 'audio/RESos#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('faSos', 'audio/FASos#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('solSos', 'audio/SOLSos#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
+		audio.preloadFX('laSos', 'audio/LASos#.mp3', function(msg){}, function(msg){alert ('Error: ' + msg);});
 		
 		
 		$('.nota').bind('touchstart', function(){
